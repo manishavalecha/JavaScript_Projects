@@ -28,7 +28,6 @@ Let's leave the file blank for now.
 
 Next We need an icon for an Extension to make it look pleasing to the eye. It needs 19*19px png file. 
 
-Download the icon from here 
 
 Since Extension works on Chrome So We need an HTML file too to show the page when the user clicks on browser action.
 For this We will Create Hello.html file in our “Hello World Extension” folder.
