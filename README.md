@@ -104,5 +104,5 @@ We can also beautify the HTML page by adding Some CSS and add more functionality
 
 
 Example:
-https://github.com/exponentsoftware/MS_Chrome-extension_Monoceros_Tep_Hyderabad_Part-time_2020_1/tree/manisha/release1
+https://github.com/manishavalecha/JavaScript_Projects
 
