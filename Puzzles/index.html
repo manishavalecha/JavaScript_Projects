@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Image Puzzle-First Release</title>
+</head>
+
+<body>
+    <hr>
+    <h3 style="text-align: center;">Image Puzzle</h3>
+    <hr>
+    <div class="container">
+        <!-- Container for the Entire Puzzle -->
+
+        <div class="wrapper">
+            <!-- Wrapping up the contents within the Container -->
+
+            <ul class="puzzle_box">
+                <!-- Contains the Puzzle-->
+            </ul>
+            <div class="console_wrapper">
+                <!-- Contains the Console of the Puzzle and original Image -->
+                <img id="actualimg"> <!-- Original Image-->
+                <div class="buttons_box">
+                    <input type="radio" name="level" value="3" id="three" checked="checked">Easy
+                    <input type="radio" name="level" value="4" id="four">Medium
+                    <input type="radio" name="level" value="5" id="five">Hard
+                    <div>
+                        <button id="another_image" onclick="window.location.reload(true)">Another Image</button>
+                        <button class="rules" onclick="alert('Re arrange the image parts in a way that it correctly forms the picture.')">Rules</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="results" style="display: none;">
+            <div style="background-color: rgb(153, 218, 151);align-content: center;">  
+                <h4>Congratulations! You have completed the Puzzle</h4>
+                <button class="play_again" onclick="window.location.reload(true)">Play Again</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
